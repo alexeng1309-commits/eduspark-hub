@@ -4,6 +4,7 @@ import heroStudy from "../assets/hero-study.jpg";
 import subjectMath from "../assets/subject-math.jpg";
 import subjectPhysics from "../assets/subject-physics.jpg";
 import subjectChemistry from "../assets/subject-chemistry.jpg";
+import pricingStudy from "../assets/pricing-study.jpg";
 import personAnanya from "../assets/person-ananya.jpg";
 import personRahul from "../assets/person-rahul.jpg";
 import personIbrahim from "../assets/person-ibrahim.jpg";
@@ -268,10 +269,12 @@ function Home() {
             </div>
             <div className="lg:col-span-5">
               <img
-                src={require0}
-                alt=""
-                aria-hidden
-                className="hidden"
+                src={pricingStudy}
+                alt="Laptop with EduHub study notes, sticky notes and coffee"
+                loading="lazy"
+                width={1024}
+                height={1280}
+                className="aspect-[4/5] w-full rounded-[12px] object-cover outline outline-1 -outline-offset-1 outline-black/5"
               />
             </div>
           </div>
